@@ -66,7 +66,6 @@ export default async function ProjectPage({ params }) {
                         >
                             <div className={i % 2 === 1 ? "md:order-last" : ""}>
                                 {s.image && (
-                                    // eslint-disable-next-line @next/next/no-img-element
                                     <img
                                         src={s.image}
                                         alt={s.imageAlt ?? s.heading}

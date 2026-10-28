@@ -7,8 +7,6 @@ export const projects = [
         featured: true,
         links: [{ label: "GitHub", href: "https://github.com/ThijsvZwam/finite" }],
         image: "/projects/Finite.png",
-        // Optional. YouTube: https://www.youtube-nocookie.com/embed/ID, or a /projects/x.mp4 file
-        // video: "https://www.youtube-nocookie.com/embed/VIDEO_ID",
         sections: [
             {
                 heading: "Where the idea came from",
@@ -48,7 +46,6 @@ export const projects = [
                 imageAlt: "Profile Page",
             },
             {
-                // No image: the text just goes full width
                 heading: "What I learned",
                 text: ["It was a very fun project to do! It was my first time working with Next.js and Supabase. Sometimes it was hard to agree on something that everyone wanted on the website, but afterwards, we quickly resolved it and got something everyone agreed on. I'm excited to make more webapps in the future."],
             },

@@ -15,7 +15,6 @@ function ProjectCard({ p }) {
             }`}
         >
             {p.image && (
-                // eslint-disable-next-line @next/next/no-img-element
                 <img
                     src={p.image}
                     alt={`Screenshot of ${p.title}`}

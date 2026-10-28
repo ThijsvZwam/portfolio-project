@@ -5,7 +5,7 @@ import Link from "next/link";
 // TODO: fill these in
 const EMAIL = "thijsvz.helmond@gmail.com";
 const GITHUB = "https://github.com/ThijsvZwam";
-const STATUS = "Open to internships & junior roles"; // change or set to "" to hide
+const STATUS = "Open to internships & junior roles";
 
 const skills = [
   { title: "Unity", desc: "7 years", icon: "simple-icons:unity" },
